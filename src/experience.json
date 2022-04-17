@@ -1,0 +1,104 @@
+[
+  {
+    "company_name": "Instagram (Facebook)",
+    "position": "Software Engineering Intern",
+    "company_link": "https://www.facebook.com/careers/",
+    "description": [
+      "Instagram Ads Ranking & Delivery team",
+      "Improved ML-based ad-ranking algorithms to include different factors in ad design as well as user preferences",
+      "Designed & implemented end-to-end platform for ranking engineers to understand impact of different ad features",
+      "Created experiments on different segments of users to determine effectiveness of performance optimizations",
+      "Built recurring data pipelines to query petabyte-scale tables for extracting ads performance signals"
+    ],
+    "dates": "June 2021 - Aug 2021",
+    "location": "New York, NY (remote)"
+  },
+  {
+    "company_name": "Google",
+    "position": "Software Engineering Intern",
+    "company_link": "https://careers.google.com/",
+    "description": [
+      "Business Messages — G Suite, Google Cloud Communication Apps",
+      "Developed tools for integrating natural language processing features into chat-bots within Google Maps + Search",
+      "Built server to handle incoming requests from the Business Messages API and direct messages appropriately",
+      "Integrated database to track user state of up to hundreds of thousands of simultaneous conversations (Firebase)",
+      "Built EJS + Bootstrap console for company partners to manage agents and directly message users",
+      "Created setup script for account creation, database + server initialization, and deployment to Google App Engine"
+    ],
+    "dates": "May 2020 - Aug 2020",
+    "location": "Mountain View, CA (remote)"
+  },
+  {
+    "company_name": "Duke Catalyst Tech Society",
+    "position": "Social Chair",
+    "company_link": "https://www.dukecatalyst.co",
+    "description": [
+      "Plan and host social events for members throughout the summer and school year"
+    ],
+    "dates": "May 2020 - present",
+    "location": "Durham, NC"
+  },
+  {
+    "company_name": "Duke Catalyst Tech Society",
+    "position": "Professional Chair",
+    "company_link": "https://www.dukecatalyst.co",
+    "description": [
+      "Maintained and built relationships with companies for recruiting",
+      "Mentored students in preparation for the internship and full-time technical recuiting processes",
+      "Held professional development events for students, including technical interview and resume review workshops"
+    ],
+    "dates": "January 2020 - May 2020",
+    "location": "Durham, NC"
+  },
+  {
+    "company_name": "Duke Machine Learning",
+    "position": "Associate Director of Sponsorship",
+    "company_link": "https://www.dukeml.org",
+    "description": [
+      "Planned Duke Datathon, a data science competition where 300+ attendees analyze and present about a dataset",
+      "Acted as a judge for Datathon, assessing submissions for methodology, relevance, and coherence",
+      "Maintained and built relationships with companies and university departments for sponsorships and talks"
+    ],
+    "dates": "September 2019 - December 2019",
+    "location": "Somerville, MA"
+  },
+  {
+    "company_name": "Intralinks",
+    "position": "Data Science Intern",
+    "company_link": "https://www.intralinks.com",
+    "description": [
+      "Performed web scraping and exploratory data analysis on M&A data to direct model selection (scraPy)",
+      "Classified articles by topic with 90% accuracy using Logistic Regression models (scikit-learn)",
+      "Clustered articles with K-Means Clustering to derive meaning from news articles after optimizing dimensionality with principal component analysis",
+      "Predicted M&A deals with a machine learning pipeline consisting of supervised and unsupervised learning, including NLP techniques such as sentiment analysis and named entity recognition using BERT models"
+    ],
+    "dates": "May 2019 - August 2019",
+    "location": "Somerville, MA"
+  },
+  {
+    "company_name": "Curoverse Research",
+    "position": "Data Science Intern",
+    "company_link": "",
+    "description": [
+      "Developed reverse gene + rsid searching tool for open-source genome compression software (tiling)",
+      "Created machine learning classifiers to predict eye color and blood type to 95% accuracy using scikit-learn and TensorFlow",
+      "Developed prediction pipelines in Arvados, an open-source bioinformatics platform, using Java and Common Workflow Language (CWL)",
+      "Presented poster on open science and phenotypic analysis at the i2b2/tranSMART symposium to 100+ attendees at Harvard Medical School"
+    ],
+    "dates": "June 2016 - January 2019",
+    "location": "Somerville, MA"
+  },
+  {
+    "company_name": "MIT Media Lab",
+    "position": "Biomechatronics Intern",
+    "company_link": "https://media.mit.edu/groups/biomechatronics/overview",
+    "description": [
+      "Developed high throughput compute cluster with workload distribution software HTCondor for iterative finite element modeling of prosthetic limb designs",
+      "Increased speed and efficiency of computation by over 60% using containerized solutions in Docker and Ubuntu Linux",
+      "Wrote Python scripts to handle submission of processing jobs across compute cluster",
+      "Parallelized HTCondor workflow across set of old workstations to re-purpose retired machines for math computation"
+    ],
+    "dates": "March 2018",
+    "location": "Cambridge, MA"
+  }
+]

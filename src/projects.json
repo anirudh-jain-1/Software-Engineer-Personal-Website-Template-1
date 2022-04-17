@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Reinforced Flappy Bird",
+    "image": "https://raw.githubusercontent.com/kevin-fang/reinforced-flappy-bird/master/animation.gif",
+    "link": "https://www.youtube.com/watch?v=PNE6KFNn1yY",
+    "priority": 1.2,
+    "github": "https://github.com/kevin-fang/reinforced-flappy-bird",
+    "summary": "Play Flappy Bird with neural networks",
+    "description": "For my final, independent CS project in high school, I used policy gradients to train a neural net to play Flappy Bird. The neural net read the state of a Flappy Bird game and would predict the optimal move (jump or fall). Based on results of the previous games, it would learn to make better predictions over time. After a few hundred iterations of training, the AI was able to play Flappy Bird without failing."
+  },
+  {
+    "name": "On the Efficacy of Renewable Portfolio Standards",
+    "image": "./datathon_graph.jpg",
+    "link": "",
+    "priority": 1.5,
+    "github": "https://github.com/Kevin-Fang/2019-citadel-datathon",
+    "summary": "Our Citadel 2019 Data Open project",
+    "description": "For the 2019 Citadel Data Open at Princeton, our team worked on analyzing the efficacy of renewable portfolio standards using the SEDS dataset from the U.S. Energy Information Administration. We then modeled how it affected emissions data and electricity revenue data with a difference-in-differences econometrics model."
+  },
+  {
+    "name": "DearAI [PennApps XIX - Top 5, Best Entertainment Hack]",
+    "image": "./dearai.jpg",
+    "link": "https://devpost.com/software/dear-ai",
+    "priority": 1.3,
+    "github": "https://github.com/kevin-fang/dear-ai",
+    "summary": "Combating depression through suggestions and recommendations, one journal entry at a time.",
+    "description": "Since many teenagers do not actively seek out support for potential mental health issues (either due to financial or personal reasons), we built an app that integrates daily journaling with sentiment analysis software, to inform teens about their emotions using machine learning and IBM Watson's Tone Analyzer API. Based on the resultant data, we recommend to them activities designed to improve their well-being."
+  },
+  {
+    "name": "simplif.ai [YHack 2018]",
+    "image": "./simplifai.jpg",
+    "link": "https://yhack2018.hackerearth.com/sprints/yhack-2018/dashboard/05d960f/submission/",
+    "priority": 2,
+    "github": "https://github.com/kevin-fang/simplif.ai",
+    "summary": "Identify overly complex phrases with machine learning",
+    "description": "To make research and legal writing more accessible, at YHack 2018 we created an application that would serve as an AI 'companion' for writers, providing feedback as to whether sentences would be overly complicated or difficult to understand. We trained three different classifiers: a custom recurrent neural net, a Google Cloud AutoML natural language classifier, and a Markov Chain using Wolfram Classify, and achieved over 80% accuracy."
+  },
+  {
+    "name": "PillUp [HopHacks 2018 - 1st Place Winner]",
+    "image": "./pillup-box.jpg",
+    "link": "https://hophacks-fall2018.hackerearth.com/sprints/hophacks-fall-2018/dashboard/f309dff/submission/",
+    "priority": 1,
+    "summary": "A low-cost, IoT enabled medicine dispenser for everyone",
+    "github": "https://github.com/kevin-fang/PillUp",
+    "description": "At HopHacks 2018, we created a robotic pill dispenser to simplify the daily routine of taking different medicines. We created a physical device using servo motors to dispense medicine, a React.js-based web frontend for physicians to monitor patient statuses, and an iOS mobile client for patients to easily dispense their medicine in the morning."
+  },
+  {
+    "name": "Relief Mesh [HackHarvard - Best Hack For Building Communities]",
+    "image": "./reliefmesh.jpg",
+    "link": "https://devpost.com/software/relief-mesh-zhp5yu",
+    "priority": 2,
+    "summary": "Mesh network to help disaster relief",
+    "github": "https://github.com/kevin-fang/relief-mesh",
+    "description": "After seeing the damage caused by hurricane Florence, we were inspired to create a system for communication that did not depend on developed cellular networks. Using long-range 'LoRA' radios, short-range transceivers, a Raspberry Pi Zero, and GPS modules, we created a decentralized mesh network that allows users to communicate with each other over 1 mi+ ranges without the use of internet."
+  },
+  {
+    "name": "Solanum Time",
+    "image": "./solanum.jpg",
+    "summary": "A well-designed pomodoro timer",
+    "link": "https://solanumti.me",
+    "github": "http://github.com/kevin-fang/solanum",
+    "priority": 3,
+    "hidden": "true",
+    "description": "A small side-project of mine: I couldn't find many well-designed Pomodoro timers online, so I decided to make my own using React.js, material-ui, and odometer.js."
+  },
+  {
+    "name": "Climate Sentiment",
+    "image": "./climate-sentiment.jpg",
+    "link": "https://public.tableau.com/profile/kevin.fang#!/vizhome/DigitalExhibit/ClimateChangeintheMedia",
+    "github": "https://github.com/kevin-fang/climate-sentiment",
+    "summary": "Sentiment trends towards climate change over the years",
+    "priority": 2,
+    "description": "I created a tool that scraped several news sites, including CNN, Fox News, the Economist, and Reuters. Once it saved the sentences, I ran them through the Google Cloud Platform NLP toolkit for sentiment analysis. Then, I took the sentiments and graphed them in Tableau, to see if I could find any overall trends. To no one's surprise, there was a mild negative trend that appeared among the news sites, showing that over time, climate change writing gets more and more negative."
+  },
+  {
+    "name": "Logical Inference",
+    "image": "./logicalinference.jpg",
+    "link": "",
+    "hidden": "true",
+    "summary": "An Aristotelian logic system, implemented in C",
+    "priority": 2,
+    "github": "https://github.com/kevin-fang/logical-inference",
+    "description": "I created a logic system that allowed users to make assertions such as 'all humans are mammals' and 'all mammals are warm-blooded.' After the user makes assertions, the system will then solve logical queries, such as 'are all humans warm-blooded?'"
+  },
+  {
+    "name": "FenceMe Fencing Scorekeeper",
+    "image": "./fenceme.jpg",
+    "link": "",
+    "summary": "An elegant Android app to keep track of fencing matches",
+    "priority": 2,
+    "github": "https://github.com/kevin-fang/FenceMe-Scorekeeper",
+    "description": "I was looking for easier ways for referees to score fencing matches, but I found that many of the existing apps on the Google Play Store were quite outdated or unpleasant to use. So I created my own app called FenceMe Fencing Scorekeeper. I built it using Java, Kotlin, and RxJava, and it included features such as timing, keeping track of points, penalties, and tiebreakers."
+  }
+]
